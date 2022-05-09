@@ -3,8 +3,8 @@
  * @param {number} target
  * @return {number}
  */
-
- var search = function(nums, target) {
+ var searchInsert = function(nums, target) {
+    
     let start_idx = 0;
     let end_idx = nums.length - 1;
     
@@ -25,6 +25,5 @@
         }
     }
     
-    return -1;
-}
-   
+    return start_idx;
+};
